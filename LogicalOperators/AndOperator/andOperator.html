@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>AndLogicalOperators</title>
+    <script src="andOperator.js"></script>
+    <link rel="stylesheet" href="andOperator.css">
+</head>
+
+<body>
+    <div class="input">
+        <h1>And (&&) Logical Operators</h1>
+        <p>Check if you are qualify for the Student Discount:</p>
+
+        <table>
+            <tr>
+                <td><label for="lblAge">Age:</label></td>
+                <td><input id="txtAge" type="number" placeholder="Enter your age"></td>
+            </tr>
+            <tr>
+                <td><label for="lblGender">Gender:</label></td>
+                <td><input id="txtGender" type="text" placeholder="Enter your gender"></td>
+            </tr>
+        </table>
+        <button id="btnAndOperator" onclick="onClickAndOperator()">Check Discount</button>
+        <p id="pResult"></p>
+    </div>
+
+    <hr>
+
+    <div class="radio">
+        <h1>And (&&) Logical Operators</h1>
+        <p>Check if you are qualify for the Student Discount:</p>
+
+        <label for="lblAge">Age:</label>
+        <input id="txtAges" type="number" placeholder="Enter your age">
+        <br>
+        <label for="lblGender">Gender:</label>
+        <input id="txtMale" name="Gender" type="radio" value="Male">Male
+        <input id="txtFemale" name="Gender" type="radio" value="Female">Female
+        <input id="txtOther" name="Gender" type="radio">Other
+        <br>
+        <button id="btnAndOperator" onclick="onClickAndLogicalOperator()">Check Discount</button>
+        <p id="pResults"></p>
+
+    </div>
+</body>
