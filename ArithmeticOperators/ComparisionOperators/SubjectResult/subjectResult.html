@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Subject Result</title>
+    <script src="subjectResult.js"></script>
+    <style>
+    .container{
+        margin: 0px auto;
+        justify-content: center;
+        text-align: center;
+        height: 275px;
+        width: 310px;
+        padding: 10px;
+        box-shadow: 0px 0px 15px palevioletred;
+        background-color: rgb(193, 188, 188);
+        border-radius: 5px;   
+    }
+    .data{
+         margin: 0px auto;
+        justify-content: center;
+        text-align: center;
+    }
+    img{
+       display: block; 
+       margin: 10px auto;
+        height: 135px;
+        width: 150px;
+    }
+  
+    </style>
+</head>
+
+<body>
+<img src="https://i.pinimg.com/originals/cd/7d/4d/cd7d4d59e893eccdbed98bbbea73df94.png">
+    <div class="container">
+    <h2>Subject Result:</h2>
+    
+    <table class="data">
+    <tr>
+        <td> <label for="lblTelugu">Telugu</label></td>
+        <td> <input id="txtTelugu" type="number" placeholder="Enter ypur marks"></td>
+    </tr>
+    <tr>
+        <td> <label for="lblHindi">Hindi</label></td>
+        <td> <input id="txtHindi" type="number" placeholder="Enter ypur marks"></td>
+    </tr>
+    <tr>
+        <td> <label for="lblEnglish">English</label></td>
+        <td> <input id="txtEnglish" type="number" placeholder="Enter ypur marks"></td>
+    </tr>
+    <tr>
+        <td> <label for="lblMaths">Maths</label></td>
+        <td> <input id="txtMaths" type="number" placeholder="Enter ypur marks"></td>
+    </tr>
+    <tr>
+        <td> <label for="lblScience">Science</label></td>
+        <td> <input id="txtScience" type="number" placeholder="Enter ypur marks"></td>
+    </tr>
+    <tr>
+        <td> <label for="lblSocial">Social</label></td>
+        <td> <input id="txtSocial" type="number" placeholder="Enter ypur marks"></td>
+    </tr>
+    </table>
+    <button style="margin: 17px auto; width: 229px; border-radius: 5px; background-color: palevioletred;" id="btnResult" onclick="onClickResult()">Result</button>
+    <p id="pResult"></p>
+    <p id="pTotal"></p>
+    <p id="pAverage"></p>
+    <p id="pPercentage"></p>
+    <p id="pTelugu"></p>
+    <p id="pHindi"></p>
+    <p id="pEnglish"></p>
+    <p id="pMaths"></p>
+    <p id="pScience"></p>
+    <p id="pSocial"></p>
+    </div>
+</body>
+
+</html>
