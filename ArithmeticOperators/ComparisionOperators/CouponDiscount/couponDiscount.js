@@ -16,7 +16,7 @@ function onClickSubmit() {
         result.style.fontWeight="bold";
         result.style.fontSize="20px";
     } else {
-        result.innerHTML = "Invalid Coupon! Amount is Rs: " + courseFee;
+        result.innerHTML = "Invalid Coupon! Amount is Rs: " + courseFee; 
         result.style.color="red";
         result.style.fontWeight="bold";
         result.style.fontSize="20px";
