@@ -8,7 +8,7 @@ function onClickSendOTP() {
 function onClickInputOTP(){
     debugger;
     var inputOTP = Number(document.getElementById("txtOTP").value);
-    if(inputOTP == OTP){
+    if(inputOTP === OTP){
         document.getElementById("pResult").innerHTML ="✅ Successfully logged-in";
         document.getElementById("pResult").style.color="green";
         document.getElementById("pResult").style.fontWeight="bold";
