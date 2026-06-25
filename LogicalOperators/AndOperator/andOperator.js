@@ -10,7 +10,6 @@ function onClickAndOperator() {
 
 function onClickAndLogicalOperator() {
     debugger;
-    // var ages = Number(document.getElementById("txtAge").value);
     let age = document.getElementById("txtAges").value;
     var gender = document.querySelector('input[name="Gender"]:checked').value;
 
