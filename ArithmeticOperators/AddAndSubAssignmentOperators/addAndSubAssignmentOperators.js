@@ -14,3 +14,15 @@ function onClickSub() {
         document.getElementById("pResult").innerHTML = count;
     }
 }
+    function onClickMultiplication(){
+        debugger;
+        let number = Number(document.getElementById("txtNumber").value);
+        count *= number;
+    document.getElementById("pResult").innerHTML = count;
+    }
+     function onClickDivision(){
+        debugger;
+        let number = Number(document.getElementById("txtNumber").value);
+        count /= number;
+    document.getElementById("pResult").innerHTML = count;
+     }
